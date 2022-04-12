@@ -1,0 +1,142 @@
+:root {
+	--darkgrey: #828290;
+	--black: black;
+	--white: white;
+	--darkgrey2 : darkgrey;
+	--lightgrey:  lightgrey;
+	--darkgrey_table: #505059;
+}
+
+header
+{
+	position: fixed;
+	display: flex;
+	flex-direction: row;
+	min-height: 6vh;
+	min-width: 100vw;
+	background-color: var(--black);
+	align-items: center;
+}
+
+.logo
+{
+	margin-left: 3vw;
+	color: var(--white);
+	margin-right: 50%;
+	min-width: 10px;
+	min-height: 10px;
+}
+
+.nav-top
+{
+	margin-right: 10vw;
+	display: flex;
+}
+
+.button
+{
+	margin-right: 1vw;
+	background-color: var(--white);
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 10px;
+	padding-left: 10px;
+	border-radius: 25%;
+
+}
+
+.icon
+{
+	margin-top: 1px;
+	width: 15px;
+	height: 15px;
+}
+
+.logactive
+{
+	display: inline-block;
+	animation-name: pojawianie_sie;
+	animation-duration: 3s;
+}
+
+.logdeactive
+{
+	display: none;
+	background-color: var(--white);
+	padding-top: 7px;
+	padding-bottom: 7px;
+	padding-right: 10px;
+	padding-left: 10px;
+	border-radius: 25%;
+	animation-name: pojawianie_sie;
+	animation-duration: 3s;
+}
+
+@keyframes pojawianie_sie {
+	from {opacity:0%}
+	to{opacity: 100%}
+}
+
+.logdeactive:hover
+{
+	animation: spin 2s linear;
+}
+
+.logactive:hover
+{
+	animation: spin 2s linear;
+}
+
+@keyframes spin 
+{
+	100% {transform: rotate(360deg);}
+}
+
+.butactive
+{
+	display: inline-block;
+}
+
+.butdeactive
+{
+	display: none;
+}
+
+@media screen and (max-width:  1400px)
+{
+	.logo
+	{
+		margin-right: 60%;
+	}
+}
+
+@media screen and (max-width: 850px) 
+{
+	.logactive
+	{
+		display: none;
+	}
+
+	.logdeactive
+	{
+		display: inline-block;
+	}
+
+	.logo
+	{
+		margin-right: 50%;
+	}
+}
+
+@media screen and (max-width: 600px) 
+{
+	.butactive
+	{
+		display: none;
+	}
+
+	.butdeactive
+	{
+		display: inline-block;
+	}
+}

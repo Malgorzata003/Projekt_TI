@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+
+<html lang="zxx">
+  <head> 
+    <meta charset = "utf-8">
+    <title>M. Leszczyńska</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <meta name="keywords" content="fotografia, blog, zdjęcia, zdjecie">
+    <meta name="author" content="Małgorzata Leszczyńska">
+    <meta name="description" content="Strona w ramach zajęć z Technik Internetowych, IiE, 2 rok lic">
+    <link rel = "shortcut icon" href="Images/logo_strony.png"/>
+    <link rel = "stylesheet" media = "screen" href = "Styles/styles.css"/>
+    <link rel="stylesheet" media="screen" href="Styles/styl_menu_gorne.css">
+    <script src="zegar.js"></script>
+  </head>
+  <body style="margin: 0px;" onload = "zamiana()">
+    <header>
+      <div class = "logo">
+        <span class = "logactive">Fotografia</span>
+        <span class = "logdeactive"><img alt = "logo_deactive" class ="icon" src = "Images/logo_strony.png"></span>
+      </div>
+      <nav class="nav-top">
+        <div class="button">
+          <a class="butactive hiper" href="#sekcja1">Home</a>
+          <a class="butdeactive hiper" href="#sekcja1"><img alt = "logo_sekcja_1" class="icon" src="Images/house-user-solid.svg"></a>
+        </div>
+        <div class="button">
+          <a class="butactive hiper" href="#sekcja2">About</a>
+          <a class="butdeactive hiper" href="#sekcja2"><img alt = "logo_sekcja_2" class="icon" src="Images/earth-americas-solid.svg"></a>
+        </div>
+        <div class="button">
+          <a class="butactive hiper" href="#sekcja3">Work</a>
+          <a class="butdeactive hiper" href="#sekcja3"><img alt = "logo_sekcja_3" class="icon" src="Images/briefcase-solid.svg"></a>
+        </div>
+        <div class="button">
+          <a class="butactive hiper" href="#sekcja4">Contact</a>
+          <a class="butdeactive hiper" href="#sekcja4"><img alt = "logo_sekcja_4" class="icon" src="Images/phone-solid.svg"></a>
+        </div>
+      </nav>
+    </header>
+    <div class="side-menu-container">
+      <nav class="side-menu">
+        <a href="#sekcja1" class="hiper">
+          <div><img class="icon" alt = "logo_sekcja_1" src="Images/house-user-solid.svg"></div>
+        </a>
+        <a href="#sekcja2" class="hiper">
+          <div><img class="icon" alt = "logo_sekcja_2" src="Images/earth-americas-solid.svg"></div>
+        </a>
+        <a href="#sekcja3" class="hiper">
+          <div><img class="icon" alt = "logo_sekcja_3" src="Images/briefcase-solid.svg"></div>
+        </a>
+        <a href="#sekcja4" class="hiper">
+          <div><img class="icon" alt = "logo_sekcja_4" src="Images/phone-solid.svg"></div>
+        </a>
+      </nav>
+    </div>
+
+    <img class = "landing" alt = "landing" src = "Images/Analog_luty_2022-15.jpg">
+    
+    <div class="container-main container">
+      <div class="container" id="sekcja1">
+        <div class="inner-container">
+          <div class="tile grey" onclick = "obrot(event)"></div>
+          <div class="tile grey" onclick = "obrot(event)"></div>
+          <div class="tile grey" onclick = "obrot(event)"></div>
+          <div class="tile grey" onclick = "obrot(event)"></div>
+          <div class="tile grey" onclick = "obrot(event)"></div>
+          <div class="tile grey" onclick = "obrot(event)"></div>
+          <div class="tile grey" onclick = "obrot(event)"></div>
+          <div class="tile grey" onclick = "obrot(event)"></div>
+          <div class="tile grey" onclick = "obrot(event)"></div>
+          <div class="tile grey" onclick = "obrot(event)"></div>
+          <div class="tile grey" onclick = "obrot(event)"></div>
+          <div class="tile grey" onclick = "obrot(event)"></div>
+          <div class="tile grey" onclick = "obrot(event)"></div>
+          <div class="tile grey" onclick = "obrot(event)"></div>
+          <div class="tile grey" onclick = "obrot(event)"></div>
+          <div class="tile grey" onclick = "obrot(event)"></div>
+          <div class="tile grey" onclick = "obrot(event)"></div>
+        </div>
+        <br>
+        <hr/>
+        <h1>Nagłówek 1 sekcji 1</h1>
+        <p>Paragraf z treścią: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <div class="image" id="image1">
+          <img class="imag" alt = "Obrazek1" src="https://cdn.pixabay.com/photo/2016/11/29/07/57/train-station-1868256_960_720.jpg"
+          />
+          <br>
+          <p><a href="https://cdn.pixabay.com/photo/2016/11/29/07/57/train-station-1868256_960_720.jpg"><u>Link do zdjecia</u></a></p>
+        </div>
+      </div>
+
+      <div class="container" id="sekcja2">
+        <div class="inner-container">
+          <div class="tile grey" onclick = "obrot(event)"></div>
+          <div class="tile grey" onclick = "obrot(event)"></div>
+          <div class="tile grey" onclick = "obrot(event)"></div>
+          <div class="tile grey" onclick = "obrot(event)"></div>
+          <div class="tile grey" onclick = "obrot(event)"></div>
+          <div class="tile grey" onclick = "obrot(event)"></div>
+          <div class="tile grey" onclick = "obrot(event)"></div>
+          <div class="tile grey" onclick = "obrot(event)"></div>
+          <div class="tile grey" onclick = "obrot(event)"></div>
+          <div class="tile grey" onclick = "obrot(event)"></div>
+          <div class="tile grey" onclick = "obrot(event)"></div>
+          <div class="tile grey" onclick = "obrot(event)"></div>
+          <div class="tile grey" onclick = "obrot(event)"></div>
+          <div class="tile grey" onclick = "obrot(event)"></div>
+          <div class="tile grey" onclick = "obrot(event)"></div>
+          <div class="tile grey" onclick = "obrot(event)"></div>
+          <div class="tile grey" onclick = "obrot(event)"></div>
+        </div>
+        <h2>Nagłówek 2 sekcji 1</h2>
+        <p>Paragraf z treścią: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <h3>Nagłówek 3 sekcji 1</h3>
+        <p>Paragraf z treścią: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <hr />
+        <br>
+        <br>
+        <div class="image" id="image2">
+          <img class = "imag" alt = "Obrazek2"
+            src="https://cdn.pixabay.com/photo/2017/06/05/08/50/train-2373323_960_720.jpg"
+          />
+          <br>
+          <p><a href="https://cdn.pixabay.com/photo/2016/11/29/07/57/train-station-1868256_960_720.jpg"><u>Link do zdjecia</u></a></p>
+        </div>
+        
+      </div>
+      <br>
+      <div class="container" id="sekcja3">
+        <div class="inner-container">
+          <div class="tile grey" onclick = "obrot(event)"></div>
+          <div class="tile grey" onclick = "obrot(event)"></div>
+          <div class="tile grey" onclick = "obrot(event)"></div>
+          <div class="tile grey" onclick = "obrot(event)"></div>
+          <div class="tile grey" onclick = "obrot(event)"></div>
+          <div class="tile grey" onclick = "obrot(event)"></div>
+          <div class="tile grey" onclick = "obrot(event)"></div>
+          <div class="tile grey" onclick = "obrot(event)"></div>
+          <div class="tile grey" onclick = "obrot(event)"></div>
+          <div class="tile grey" onclick = "obrot(event)"></div>
+          <div class="tile grey" onclick = "obrot(event)"></div>
+          <div class="tile grey" onclick = "obrot(event)"></div>
+          <div class="tile grey" onclick = "obrot(event)"></div>
+          <div class="tile grey" onclick = "obrot(event)"></div>
+          <div class="tile grey" onclick = "obrot(event)"></div>
+          <div class="tile grey" onclick = "obrot(event)"></div>
+          <div class="tile grey" onclick = "obrot(event)"></div>
+        </div>
+        <h1>Nagłówek 1 sekcji 2</h1>
+        <p>Paragraf z treścią: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <hr />
+        <h1>Nagłówek 1 sekcji 3</h1>
+        <p><b>Paragraf z treścią ale pogrubiony:</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <hr />
+        <h1>Nagłówek 1 sekcji 4</h1>
+        <p>Paragraf z treścią i<a href="https://google.pl/">linkiem do Google</a>: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <div class="inner-container">
+          <div class="tile grey" onclick = "obrot(event)"></div>
+          <div class="tile grey" onclick = "obrot(event)"></div>
+          <div class="tile grey" onclick = "obrot(event)"></div>
+          <div class="tile grey" onclick = "obrot(event)"></div>
+          <div class="tile grey" onclick = "obrot(event)"></div>
+          <div class="tile grey" onclick = "obrot(event)"></div>
+          <div class="tile grey" onclick = "obrot(event)"></div>
+          <div class="tile grey" onclick = "obrot(event)"></div>
+          <div class="tile grey" onclick = "obrot(event)"></div>
+          <div class="tile grey" onclick = "obrot(event)"></div>
+          <div class="tile grey" onclick = "obrot(event)"></div>
+          <div class="tile grey" onclick = "obrot(event)"></div>
+          <div class="tile grey" onclick = "obrot(event)"></div>
+          <div class="tile grey" onclick = "obrot(event)"></div>
+          <div class="tile grey" onclick = "obrot(event)"></div>
+          <div class="tile grey" onclick = "obrot(event)"></div>
+          <div class="tile grey" onclick = "obrot(event)"></div>
+        </div>
+      </div>
+
+      <div class="container" id="sekcja4">
+        <!--Lista nieniumerowane-->
+        <div class="list">
+          <ul>
+            <li>Element listy nienumerowanej</li>
+            <li>Element listy nienumerowanej</li>
+            <li>Element listy nienumerowanej</li>
+            <li>Element listy nienumerowanej</li>
+          </ul>
+        </div>
+        <!--Lista numerowana-->
+        <div class="list">
+          <ol>
+            <li>Element listy numerowanej</li>
+            <li>Element listy numerowanej</li>
+            <li>Element listy numerowanej</li>
+            <li>Element listy numerowanej</li>
+          </ol>
+        </div>
+
+        <div class="myTable">
+          <p>A tu poniżej znajduje się tabela:</p>
+          <table>
+          <thead>
+            <tr>
+              <td><b>Kolumna1</b></td>
+              <td><b>Kolumna2</b></td>
+              <td><b>Kolumna3</b></td>
+              <td><b>Kolumna4</b></td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Dane1</td>
+              <td>Dane2</td>
+              <td colspan="2">Dane34</td>
+            </tr>
+            <tr>
+              <td>Dane1</td>
+              <td>Dane2</td>
+              <td>Dane3</td>
+              <td>Dane4</td>
+            </tr>
+          </tbody>
+          </table>
+        </div>
+      </div>
+    <hr>
+    </div>
+    <footer>
+      <p>Małgorzata Leszczyńska &copy; 2022 All rights reserved</p>
+      <div id="zegar">a</div>
+      <script >
+        godzina(document.getElementById("zegar"));
+      </script>
+      <br>
+    </footer>
+    <script>
+        $(".hiper").click(function(e) {
+          e.preventDefault();
+          var aid = $(this).attr("href");
+          $('html,body').animate({scrollTop: $(aid).offset().top}, 'slow');
+        });
+    </script>
+    <script>
+      $(window).scroll(function () {
+        var scroll = $(window).scrollTop();
+        if(scroll <= 600){
+          $(".side-menu").hide("slow");
+          $("header").show("slow");
+        }else{
+          $("header").hide("slow");
+          $(".side-menu").show("slow");
+        };
+      });
+    </script>
+    <script>
+      function hasClass(element, className) 
+      {
+        return (' ' + element.className + ' ').indexOf(' ' + className+ ' ') > -1;
+      }
+      
+      function obrot(event) 
+      {
+        let element = event.target;
+
+        if (hasClass(element, "rotate")) {
+          element.classList.remove("rotate");
+        } else {
+          element.classList.add("rotate");
+        }
+      }
+    </script>
+  </body>
+</html>
